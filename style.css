@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    background-color: lightgray;
+    color:#000000;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: lightblue;
+    color: #000000;
+    font-family: sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 600px;
+    background-color: rgb(163, 215, 224);
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px rgba(0,0,0);
+}
+
+.about {
+    padding:20px;
+}
+
+h2 {
+    color:#000000;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color:rgb(163, 215, 224);
+    color: #000000;
+}
