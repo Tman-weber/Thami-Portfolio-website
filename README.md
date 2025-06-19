@@ -1,0 +1,2 @@
+# Thami-Portfolio-website
+Welcome to my personal portfolio! This repository showcases my projects, skills, and growth as a developer. It includes a variety of web development projects featuring HTML, CSS, JavaScript, and other technologies I’m passionate about. Here, you’ll find clean, well-structured code and practical examples that demonstrate my ability to build responsive, user-friendly websites and applications. Feel free to explore, provide feedback, or connect with me for collaboration opportunities!
