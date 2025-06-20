@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: lightgray;
+    background-color: gray;
     color:#000000;
     padding: 0;
     margin: 0;
@@ -36,4 +36,100 @@ footer {
     text-align: center;
     background-color:rgb(163, 215, 224);
     color: #000000;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links > a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: rgb(42, 5, 187);
+    font-weight: light;
+    font-size: medium;
+}
+
+.social-links > a:hover{
+    background-color:rgb(66, 64, 64);
+    color:#fff;
+
+}
+
+/* projects list*/
+
+.Project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card {
+    border-left: 2px solid #b2fffc;
+    padding:10px;
+    border-radius: 15px;
+    box-shadow: 0 5px 12px grey;
+    transition: transform 0,3s;
+}
+
+.project-card:hover {
+    transform: translateX(10px)
+}
+
+.project-card > h3 {
+    margin-top: 0;
+    color:rgb(57, 57, 57);
+}
+
+.project-card > p {
+    font-size: small;
+    font-style: unset;
+    color: #000000;
+}
+
+.project-card > a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0,2 ease;
+    background-color:rgb(120, 199, 212);
+}
+
+.project-card > a:hover {
+    background-color:rgb(66, 64, 64);
+    color:#ffffff;
+}
+
+nav {
+    background-color:gray;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    padding: 10 0px;
+    margin:0;
+    gap:20px;
+    
+}
+
+.navbar > li > a {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 12px;
+    transition: background-color 0,2s ease;
+}
+
+.navbar > li > a:hover {
+     background-color:rgb(66, 64, 64);
+    color:#ffffff;
 }
